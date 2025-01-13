@@ -1,0 +1,21 @@
+{
+    "name": "squizz",
+    "version": "0.0.0",
+    "type": "module",
+    "description": "Squizz - The Quiz Game",
+    "author": "zetcgo",
+    "scripts": {
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "devDependencies": {
+        "eslint": "^9.18.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "gitmoji-cli": "^9.5.0",
+        "lefthook": "^1.10.3",
+        "npm-check-updates": "^17.1.13",
+        "prettier": "^3.4.2"
+    }
+}
